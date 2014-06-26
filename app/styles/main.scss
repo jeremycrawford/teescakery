@@ -25,8 +25,8 @@ body {
     position: fixed;
     z-index: 100;
     width: 100%;
-    height: 115px;
-    margin: 0 auto;
+    height: 80px;
+    background-color: rgb(155, 198, 189);
 
     /* Smartphones (portrait) ----------- */
     @media only screen and (max-width : 320px) {
@@ -36,6 +36,8 @@ body {
 
 .header-container {
     width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
 
     /* Smartphones (portrait) ----------- */
@@ -46,14 +48,11 @@ body {
 
 .header-logo-div {
     padding-top: 5px;
-    margin-top: 20px;
-    margin-left: 25px;
     display: inline-block;
     width: 60px;
     height: 60px;
 
     .header-logo {
-        display: inline-block;
         margin-top: 10px;
         width: 50px;
         height: 50px;
@@ -65,65 +64,105 @@ body {
     }
 }
 
-// navigation start
-
-.navigation {
+.navigation-buttons {
     display: inline-block;
     float: right;
 
-    #nav-toggle { 
-        float: right;
-        position: relative;
-        margin-right: 25px;
-        margin-top: 35px;
+    .home-button {
+        font-weight: 100;
+        letter-spacing: 2px;
+        display: inline-block;
+        width: 121px;
+        height: 80px;
+        color: white;
+        border: none;
+        text-transform: uppercase;
+        line-height: 70px;
+        text-align: center;
+        padding-top: 3px;
+        margin: 0 auto;
+        -webkit-transition: all .2s ease-in-out;
+
+        &:hover {
+            border-bottom: 4px solid rgb(255, 255, 255);
+        }
     }
 
-    #nav-toggle { 
-        cursor: pointer; 
-        padding: 10px 35px 16px 0px; 
+    #work-button {
+        font-weight: 100;
+        letter-spacing: 2px;
+        display: inline-block;
+        width: 121px;
+        height: 80px;
+        color: white;
+        border: none;
+        text-transform: uppercase;
+        line-height: 70px;
+        text-align: center;
+        padding-top: 3px;
+        margin: 0 auto;
+        -webkit-transition: all .2s ease-in-out;
+
+        &:hover {
+            border-bottom: 4px solid rgb(255, 255, 255);
+        }
+
+        /* Smartphones (portrait) ----------- */
+        @media only screen and (max-width : 320px) {
+            display: none;
+        } 
     }
 
-    #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
-        cursor: pointer;
-        border-radius: 1px;
-        height: 5px;
-        width: 35px;
-        background: white;
-        position: absolute;
-        display: block;
-        content: '';
+    #about-button {
+        font-weight: 100;
+        letter-spacing: 2px;
+        display: inline-block;
+        width: 121px;
+        height: 80px;
+        color: white;
+        border: none;
+        text-transform: uppercase;
+        line-height: 70px;
+        text-align: center;
+        padding-top: 3px;
+        margin: 0 auto;
+        -webkit-transition: all .2s ease-in-out;
+
+        &:hover {
+            border-bottom: 4px solid rgb(255, 255, 255);
+        }
+
+        /* Smartphones (portrait) ----------- */
+        @media only screen and (max-width : 320px) {
+            display: none;
+        } 
     }
 
-    #nav-toggle span:before {
-        top: -10px; 
-    }
+    #contact-button {
+        font-weight: 100;
+        letter-spacing: 2px;
+        display: inline-block;
+        width: 121px;
+        height: 80px;
+        color: white;
+        border: none;
+        text-transform: uppercase;
+        line-height: 70px;
+        text-align: center;
+        padding-top: 3px;
+        margin: 0 auto;
+        -webkit-transition: all .2s ease-in-out;
 
-    #nav-toggle span:after {
-        bottom: -10px;
-    }
+        &:hover {
+            border-bottom: 4px solid rgb(255, 255, 255);
+        }
 
-    #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
-        transition: all 400ms ease-in-out;
-    }
-
-    #nav-toggle.active span {
-        background-color: transparent;
-    }
-
-    #nav-toggle.active span:before, #nav-toggle.active span:after {
-        top: 0;
-    }
-
-    #nav-toggle.active span:before {
-        transform: rotate(45deg);
-    }
-
-    #nav-toggle.active span:after {
-        transform: rotate(-45deg);
+        /* Smartphones (portrait) ----------- */
+        @media only screen and (max-width : 320px) {
+            display: none;
+        } 
     }
 }
-
-// navigation end
 
 
 // Main Section Start
