@@ -167,7 +167,7 @@ body {
 // Main Section Start
 #main {
     width: 100%;
-    height: 780px;
+    height: 950px;
     overflow: hidden;
     background-size: auto;
 
@@ -261,4 +261,849 @@ body {
     }
 }
 
+.bottom-nav {
+    width: 100%;
+    height: 286px;
+    margin-top: 129px;
+    background-color: rgb(155, 198, 189);
+
+    .nav-arrow {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80px;
+        height: auto;
+        padding-top: 40px;
+    }
+
+    .work-header {
+        padding-top: 30px;
+        margin-top: 0px;
+
+        .work-intro {
+            margin-top: 45px;
+            text-align: center;
+            letter-spacing: 6px;
+            color: white;
+            text-transform: uppercase;
+            font-size: 34px;
+
+            /* Smartphones (portrait) ----------- */
+            @media only screen and (max-width : 320px) {
+                padding-left: 0px;
+                text-align: center;
+            } 
+        }
+
+        /* Smartphones (portrait) ----------- */
+        @media only screen and (max-width : 320px) {
+            padding-left: 0px;
+        } 
+    }
+}
+
 // Main Section End
+
+
+
+
+
+
+
+
+// Main Work Section Start
+
+#work {
+    background-color: #DADADA;
+    width: 100%;
+    height: auto;
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        background-color: white;
+    } 
+}
+
+.work-container {
+    padding-bottom: 100px;
+    width: 100%;
+    padding-left: 9.5%;
+    margin: 0 auto;
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        padding-left: 8px;
+        padding-bottom: 10px;
+    } 
+}
+
+// Project Container Content Styles
+
+.project-photo-container {
+    overflow: hidden;
+    width: 345px;
+    height: 200px;
+
+    // iPhone
+    @media only screen and (max-width : 320px) {
+        width: 287px;
+        height: 165px;
+        position: absolute;
+    } 
+}
+
+.project-photo {
+    width: 345px;
+    height: auto;
+
+    // iPhone
+    @media only screen and (max-width : 320px) {
+        width: 287px;
+        position: absolute;
+    } 
+}
+
+.project-title {
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    color: rgb(138, 193, 186);
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        font-size: 11px;
+        font-weight: 300;
+        margin-top: 43%;
+        margin-left: 0px;
+        margin-bottom: 5px;
+        text-align: center;
+    } 
+}
+
+.project-description {
+    font-size: 13px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin-left: 15px;
+    margin-top: 0px;
+    color: gray;
+    transition-duration: .6s;
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        display: none;
+    } 
+}
+
+.about-section-start {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 1px;
+    background-color: rgb(138, 193, 186);
+    transition-duration: .6s;
+}
+
+.about-project {
+    font-size: 12px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
+    color: gray;
+    transition-duration: .6s;
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        display: none;
+    } 
+}      
+
+// Get-A-Gig 
+
+.project-get-a-gig-container {
+    vertical-align: top;
+    position: relative;
+    margin: 20px;      
+    display: inline-block;
+    background-color: snow;
+    width: 345px;
+    height: 450px;
+    text-decoration: none;
+    color: rgb(46, 49, 51);
+    transition-duration: .6s;
+
+    .code-button {
+        display: inline-block;
+        background-color: rgb(155, 198, 189);
+        width: 315px;
+        height: 50px;
+        margin-left: 15px;
+        margin-right: 11px;
+        margin-top: 8px;
+        color: snow;
+
+        .code-copy {
+            font-size: 14px;
+            letter-spacing: 1px;
+            font-weight: 200;
+            text-align: center;
+            line-height: 50px;
+        }
+
+        // iPhone
+        @media only screen and (max-width : 320px) {
+            width: 90%;
+            margin-top: 33px;
+            margin-left: 15px;
+            margin-right: 0px;
+            margin-bottom: 15px;
+            color: white;
+            border: none;
+            background-color: rgb(138, 193, 186); 
+        }
+    } 
+}
+
+
+// Logos
+
+.project-logos-container {
+    vertical-align: top;
+    margin: 20px;
+    position: relative;
+    display: inline-block;
+    background-color: snow;
+    width: 345px;
+    height: 450px;
+    color: rgb(46, 49, 51);
+    transition-duration: .6s;
+
+    .design-button {
+        display: inline-block;
+        border: 1px solid #8ac1ba;
+        width: 150px;
+        height: 40px;
+        margin-left: 15px;
+        margin-top: 68px;
+        color: #8ac1ba;
+
+        .design-copy {
+            font-size: 14px;
+            letter-spacing: 1px;
+            font-weight: 200;
+            text-align: center;
+            line-height: 35px;
+        }
+
+        // iPhone
+        @media only screen and (max-width : 320px) {
+            width: 90%;
+            margin-top: 88px;
+            margin-left: 15px;
+            margin-right: 0px;
+            color: white;
+            border: none;
+            background-color: rgb(138, 193, 186); 
+        }
+    } 
+
+    &:hover {
+        color: snow;
+        background-color: rgb(138, 193, 186);
+
+        .project-title {
+            font-size: 18px;
+            font-weight: 100;
+            letter-spacing: 1px;
+            margin-top: 15px;
+            margin-left: 15px;
+            margin-bottom: 5px;
+            color: white;
+            transition-duration: .6s;
+
+            /* Smartphones (portrait) ----------- */
+            @media only screen and (max-width : 320px) {
+                font-size: 11px;
+                font-weight: 300;
+                margin-top: 43%;
+                margin-left: 0px;
+                margin-bottom: 5px;
+                text-align: center;
+            }
+        }
+
+        .project-description {
+            font-size: 13px;
+            font-weight: 200;
+            letter-spacing: 1px;
+            margin-left: 15px;
+            margin-top: 0px;
+            color: white;
+
+            /* Smartphones (portrait) ----------- */
+            @media only screen and (max-width : 320px) {
+                display: none;
+            } 
+        }
+
+        .about-section-start {
+            margin-top: 10px;
+            margin-left: 15px;
+            margin-right: 15px;
+            height: 1px;
+            background-color: white;
+            transition-duration: .6s;
+        }
+
+        .about-project {
+            font-size: 12px;
+            font-weight: 200;
+            letter-spacing: 1px;
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-top: 20px;
+            color: white;
+
+            /* Smartphones (portrait) ----------- */
+            @media only screen and (max-width : 320px) {
+                display: none;
+            } 
+        } 
+
+        .design-button {
+            border: 1px solid white;
+            color: white;
+            transition-duration: .6s;
+
+            &:hover {
+                background-color: white;
+                color: #8ac1ba;
+            }
+        }
+    }
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 287px;
+        height: 287px;
+        margin: 10px;
+        box-shadow: none;
+        border-radius: 0px;
+        background-color: rgba(187, 187, 187, .4);
+    } 
+}
+
+// Todo Project
+
+.project-todo-container {
+    vertical-align: top;
+    margin: 20px;      
+    position: relative;
+    display: inline-block;
+    background-color: snow;
+    width: 345px;
+    height: 450px;
+    text-decoration: none;
+    color: rgb(46, 49, 51);
+    transition-duration: .6s;
+
+    .code-button {
+        display: inline-block;
+        border: 1px solid #8ac1ba;
+        width: 150px;
+        height: 40px;
+        margin-left: 15px;
+        margin-right: 11px;
+        margin-top: 51px;
+        color: rgb(138, 193, 186);
+
+        .code-copy {
+            font-size: 14px;
+            letter-spacing: 1px;
+            font-weight: 200;
+            text-align: center;
+            line-height: 35px;
+        }
+
+        // iPhone
+        @media only screen and (max-width : 320px) {
+            width: 90%;
+            margin-top: 33px;
+            margin-left: 15px;
+            margin-right: 0px;
+            margin-bottom: 15px;
+            color: white;
+            border: none;
+            background-color: rgb(138, 193, 186); 
+        }
+    }
+
+    .design-button {
+        display: inline-block;
+        border: 1px solid #8ac1ba;
+        width: 150px;
+        height: 40px;
+        margin-top: 51px;
+        color: #8ac1ba;
+
+        .design-copy {
+            font-size: 14px;
+            letter-spacing: 1px;
+            font-weight: 200;
+            text-align: center;
+            line-height: 35px;
+        }
+
+        // iPhone
+        @media only screen and (max-width : 320px) {
+            width: 90%;
+            margin-top: 88px;
+            margin-left: 15px;
+            margin-right: 0px;
+            color: white;
+            border: none;
+            background-color: rgb(138, 193, 186); 
+        }
+    }
+
+    &:hover {
+        color: snow;
+        background-color: rgb(138, 193, 186);
+
+        .project-title {
+            font-size: 18px;
+            font-weight: 100;
+            letter-spacing: 1px;
+            margin-top: 15px;
+            margin-left: 15px;
+            margin-bottom: 5px;
+            color: white;
+            transition-duration: .6s;
+
+            /* Smartphones (portrait) ----------- */
+            @media only screen and (max-width : 320px) {
+                font-size: 11px;
+                font-weight: 300;
+                margin-top: 43%;
+                margin-left: 0px;
+                margin-bottom: 5px;
+                text-align: center;
+            }
+        }
+
+        .project-description {
+            font-size: 13px;
+            font-weight: 200;
+            letter-spacing: 1px;
+            margin-left: 15px;
+            margin-top: 0px;
+            color: white;
+
+            /* Smartphones (portrait) ----------- */
+            @media only screen and (max-width : 320px) {
+                display: none;
+            } 
+        }
+
+        .about-section-start {
+            margin-top: 10px;
+            margin-left: 15px;
+            margin-right: 15px;
+            height: 1px;
+            background-color: white;
+            transition-duration: .6s;
+        }
+
+        .about-project {
+            font-size: 12px;
+            font-weight: 200;
+            letter-spacing: 1px;
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-top: 20px;
+            color: white;
+
+            /* Smartphones (portrait) ----------- */
+            @media only screen and (max-width : 320px) {
+                display: none;
+            } 
+        }
+
+        .code-button {
+            border: 1px solid white;
+            color: white;
+            transition-duration: .6s;
+
+            &:hover {
+                background-color: white;
+                color: #8ac1ba;
+            }
+        }
+
+        .design-button {
+            border: 1px solid white;
+            color: white;
+            transition-duration: .6s;
+
+            &:hover {
+                background-color: white;
+                color: #8ac1ba;
+            }
+        }
+    }
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 287px;
+        height: 287px;
+        margin: 10px;
+        box-shadow: none;
+        border-radius: 0px;
+        background-color: rgba(187, 187, 187, .4);
+    }  
+}
+
+// Mobber Project
+
+.project-mobber-container {
+    vertical-align: top;
+    margin: 20px;
+    position: relative;
+    display: inline-block;
+    background-color: snow;
+    width: 345px;
+    height: 450px;
+    color: rgb(46, 49, 51);
+    transition-duration: .6s;
+
+    .code-button {
+        display: inline-block;
+        border: 1px solid #8ac1ba;
+        width: 150px;
+        height: 40px;
+        margin-left: 15px;
+        margin-right: 11px;
+        margin-top: 51px;
+        color: rgb(138, 193, 186);
+
+        .code-copy {
+            font-size: 14px;
+            letter-spacing: 1px;
+            font-weight: 200;
+            text-align: center;
+            line-height: 35px;
+        }
+
+        // iPhone
+        @media only screen and (max-width : 320px) {
+            width: 90%;
+            margin-top: 33px;
+            margin-left: 15px;
+            margin-right: 0px;
+            margin-bottom: 15px;
+            color: white;
+            border: none;
+            background-color: rgb(138, 193, 186); 
+        }
+    }
+
+    .design-button {
+        display: inline-block;
+        border: 1px solid #8ac1ba;
+        width: 150px;
+        height: 40px;
+        margin-top: 51px;
+        color: #8ac1ba;
+
+        .design-copy {
+            font-size: 14px;
+            letter-spacing: 1px;
+            font-weight: 200;
+            text-align: center;
+            line-height: 35px;
+        }
+
+        // iPhone
+        @media only screen and (max-width : 320px) {
+            width: 90%;
+            margin-top: 88px;
+            margin-left: 15px;
+            margin-right: 0px;
+            color: white;
+            border: none;
+            background-color: rgb(138, 193, 186); 
+        }
+    }
+
+    &:hover {
+        color: snow;
+        background-color: rgb(138, 193, 186);
+
+        .project-title {
+            font-size: 18px;
+            font-weight: 100;
+            letter-spacing: 1px;
+            margin-top: 15px;
+            margin-left: 15px;
+            margin-bottom: 5px;
+            color: white;
+            transition-duration: .6s;
+
+            /* Smartphones (portrait) ----------- */
+            @media only screen and (max-width : 320px) {
+                font-size: 11px;
+                font-weight: 300;
+                margin-top: 43%;
+                margin-left: 0px;
+                margin-bottom: 5px;
+                text-align: center;
+            }
+        }
+
+        .project-description {
+            font-size: 13px;
+            font-weight: 200;
+            letter-spacing: 1px;
+            margin-left: 15px;
+            margin-top: 0px;
+            color: white;
+
+            /* Smartphones (portrait) ----------- */
+            @media only screen and (max-width : 320px) {
+                display: none;
+            } 
+        }
+
+        .about-section-start {
+            margin-top: 10px;
+            margin-left: 15px;
+            margin-right: 15px;
+            height: 1px;
+            background-color: white;
+            transition-duration: .6s;
+        }
+
+        .about-project {
+            font-size: 12px;
+            font-weight: 200;
+            letter-spacing: 1px;
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-top: 20px;
+            color: white;
+
+            /* Smartphones (portrait) ----------- */
+            @media only screen and (max-width : 320px) {
+                display: none;
+            } 
+        }
+
+        .code-button {
+            border: 1px solid white;
+            color: white;
+            transition-duration: .6s;
+
+            &:hover {
+                background-color: white;
+                color: #8ac1ba;
+            }
+        }
+
+        .design-button {
+            border: 1px solid white;
+            color: white;
+            transition-duration: .6s;
+
+            &:hover {
+                background-color: white;
+                color: #8ac1ba;
+            }
+        }
+    }
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 287px;
+        height: 287px;
+        margin: 10px;
+        box-shadow: none;
+        border-radius: 0px;
+        background-color: rgba(187, 187, 187, .4);
+    } 
+}
+
+// Chat App Project
+
+.project-chat-app-container {
+    vertical-align: top;
+    margin: 20px;
+    position: relative;
+    display: inline-block;
+    background-color: snow;
+    width: 345px;
+    height: 450px;
+    color: rgb(46, 49, 51);
+    transition-duration: .6s;
+
+    .code-button {
+        display: inline-block;
+        border: 1px solid #8ac1ba;
+        width: 150px;
+        height: 40px;
+        margin-left: 15px;
+        margin-right: 11px;
+        margin-top: 34px;
+        color: rgb(138, 193, 186);
+
+        .code-copy {
+            font-size: 14px;
+            letter-spacing: 1px;
+            font-weight: 200;
+            text-align: center;
+            line-height: 35px;
+        }
+
+        // iPhone
+        @media only screen and (max-width : 320px) {
+            width: 90%;
+            margin-top: 33px;
+            margin-left: 15px;
+            margin-right: 0px;
+            margin-bottom: 15px;
+            color: white;
+            border: none;
+            background-color: rgb(138, 193, 186); 
+        }
+    }
+
+    .design-button {
+        display: inline-block;
+        border: 1px solid #8ac1ba;
+        width: 150px;
+        height: 40px;
+        margin-top: 34px;
+        color: #8ac1ba;
+
+        .design-copy {
+            font-size: 14px;
+            letter-spacing: 1px;
+            font-weight: 200;
+            text-align: center;
+            line-height: 35px;
+        }
+
+        // iPhone
+        @media only screen and (max-width : 320px) {
+            width: 90%;
+            margin-top: 88px;
+            margin-left: 15px;
+            margin-right: 0px;
+            color: white;
+            border: none;
+            background-color: rgb(138, 193, 186); 
+        }
+    }
+
+    &:hover {
+        color: snow;
+        background-color: rgb(138, 193, 186);
+
+        .project-title {
+            font-size: 18px;
+            font-weight: 100;
+            letter-spacing: 1px;
+            margin-top: 15px;
+            margin-left: 15px;
+            margin-bottom: 5px;
+            color: white;
+            transition-duration: .6s;
+
+            /* Smartphones (portrait) ----------- */
+            @media only screen and (max-width : 320px) {
+                font-size: 11px;
+                font-weight: 300;
+                margin-top: 43%;
+                margin-left: 0px;
+                margin-bottom: 5px;
+                text-align: center;
+            }
+        }
+
+        .project-description {
+            font-size: 13px;
+            font-weight: 200;
+            letter-spacing: 1px;
+            margin-left: 15px;
+            margin-top: 0px;
+            color: white;
+
+            /* Smartphones (portrait) ----------- */
+            @media only screen and (max-width : 320px) {
+                display: none;
+            } 
+        }
+
+        .about-section-start {
+            margin-top: 10px;
+            margin-left: 15px;
+            margin-right: 15px;
+            height: 1px;
+            background-color: white;
+            transition-duration: .6s;
+        }
+
+        .about-project {
+            font-size: 12px;
+            font-weight: 200;
+            letter-spacing: 1px;
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-top: 20px;
+            color: white;
+
+            /* Smartphones (portrait) ----------- */
+            @media only screen and (max-width : 320px) {
+                display: none;
+            } 
+        }
+
+        .code-button {
+            border: 1px solid white;
+            color: white;
+            transition-duration: .6s;
+
+            &:hover {
+                background-color: white;
+                color: #8ac1ba;
+            }
+        }
+
+        .design-button {
+            border: 1px solid white;
+            color: white;
+            transition-duration: .6s;
+
+            &:hover {
+                background-color: white;
+                color: #8ac1ba;
+            }
+        }
+    }
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 287px;
+        height: 287px;
+        margin: 10px;
+        box-shadow: none;
+        border-radius: 0px;
+        background-color: rgba(187, 187, 187, .4);
+    }  
+}
+
+// Work Section End
