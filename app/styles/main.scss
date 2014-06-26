@@ -37,7 +37,6 @@ body {
 .header-container {
     width: 100%;
     padding-left: 15px;
-    padding-right: 15px;
     margin: 0 auto;
 
     /* Smartphones (portrait) ----------- */
@@ -69,10 +68,10 @@ body {
     float: right;
 
     .home-button {
-        font-weight: 100;
+        font-weight: 200;
         letter-spacing: 2px;
         display: inline-block;
-        width: 121px;
+        width: 95px;
         height: 80px;
         color: white;
         border: none;
@@ -89,10 +88,10 @@ body {
     }
 
     #work-button {
-        font-weight: 100;
+        font-weight: 200;
         letter-spacing: 2px;
         display: inline-block;
-        width: 121px;
+        width: 105px;
         height: 80px;
         color: white;
         border: none;
@@ -114,10 +113,10 @@ body {
     }
 
     #about-button {
-        font-weight: 100;
+        font-weight: 200;
         letter-spacing: 2px;
         display: inline-block;
-        width: 121px;
+        width: 105px;
         height: 80px;
         color: white;
         border: none;
@@ -139,10 +138,10 @@ body {
     }
 
     #contact-button {
-        font-weight: 100;
+        font-weight: 200;
         letter-spacing: 2px;
         display: inline-block;
-        width: 121px;
+        width: 125px;
         height: 80px;
         color: white;
         border: none;
@@ -203,8 +202,8 @@ body {
 }
 
 .logo {
-    margin-top: 280px;
-    width: 200px;
+    margin-top: 220px;
+    width: 150px;
     height: auto;
 
     /* iPads (landscape) ----------- */
@@ -229,10 +228,10 @@ body {
         text-align: center;
         color: white;
         text-transform: uppercase;
-        padding-top: 70px;
-        font-size: 4em;
+        padding-top: 20px;
+        font-size: 20px;
         font-weight: 100;
-        letter-spacing: 2px;
+        letter-spacing: 8px;
 
         /* Smartphones (portrait) ----------- */
         @media only screen and (max-width : 320px) {
@@ -248,12 +247,12 @@ body {
     }
 
     p {
-        margin-top: 5px;
+        margin-top: 45px;
         text-align: center;
-        letter-spacing: 2px;
+        letter-spacing: 6px;
         color: white;
         text-transform: uppercase;
-        font-size: 13px;
+        font-size: 34px;
 
         /* Smartphones (portrait) ----------- */
         @media only screen and (max-width : 320px) {
