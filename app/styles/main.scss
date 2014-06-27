@@ -83,6 +83,7 @@ body {
         -webkit-transition: all .2s ease-in-out;
 
         &:hover {
+            background-color: rgba(83, 122, 113, .5);
             border-bottom: 4px solid rgb(255, 255, 255);
         }
     }
@@ -103,6 +104,7 @@ body {
         -webkit-transition: all .2s ease-in-out;
 
         &:hover {
+            background-color: rgba(83, 122, 113, .5);
             border-bottom: 4px solid rgb(255, 255, 255);
         }
 
@@ -128,6 +130,7 @@ body {
         -webkit-transition: all .2s ease-in-out;
 
         &:hover {
+            background-color: rgba(83, 122, 113, .5);
             border-bottom: 4px solid rgb(255, 255, 255);
         }
 
@@ -153,6 +156,7 @@ body {
         -webkit-transition: all .2s ease-in-out;
 
         &:hover {
+            background-color: rgba(83, 122, 113, .5);
             border-bottom: 4px solid rgb(255, 255, 255);
         }
 
@@ -342,7 +346,7 @@ body {
 .project-photo-container {
     overflow: hidden;
     width: 345px;
-    height: 200px;
+    height: auto;
 
     // iPhone
     @media only screen and (max-width : 320px) {
@@ -353,7 +357,12 @@ body {
 }
 
 .project-photo {
-    width: 345px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    width: 150px;
     height: auto;
 
     // iPhone
@@ -414,6 +423,7 @@ body {
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 20px;
+    margin-bottom: 20px;
     color: gray;
     transition-duration: .6s;
 
@@ -432,7 +442,7 @@ body {
     display: inline-block;
     background-color: snow;
     width: 345px;
-    height: 450px;
+    height: 400px;
     text-decoration: none;
     color: rgb(46, 49, 51);
     transition-duration: .6s;
@@ -465,6 +475,10 @@ body {
             color: white;
             border: none;
             background-color: rgb(138, 193, 186); 
+        }
+
+        &:hover {
+            background-color: rgb(83, 122, 113);
         }
     } 
 }
