@@ -27,6 +27,7 @@ body {
     width: 100%;
     height: 80px;
     background-color: rgb(155, 198, 189);
+    box-shadow: 0px -4px 10px 0px;
 
     /* Smartphones (portrait) ----------- */
     @media only screen and (max-width : 320px) {
@@ -52,6 +53,7 @@ body {
     height: 60px;
 
     .header-logo {
+        cursor: pointer;
         margin-top: 10px;
         width: 50px;
         height: 50px;
@@ -67,7 +69,8 @@ body {
     display: inline-block;
     float: right;
 
-    .home-button {
+    #home-button {
+        cursor: pointer;
         font-weight: 200;
         letter-spacing: 2px;
         display: inline-block;
@@ -83,12 +86,20 @@ body {
         -webkit-transition: all .2s ease-in-out;
 
         &:hover {
-            background-color: rgba(83, 122, 113, .5);
-            border-bottom: 4px solid rgb(255, 255, 255);
+            font-weight: 300;
+            color: rgb(46, 49, 51);
+            border-bottom: 4px solid rgb(213, 116, 102);
+        }
+
+        &:active {
+            font-weight: 300;
+            color: rgb(46, 49, 51);
+            border-bottom: 4px solid rgb(213, 116, 102);           
         }
     }
 
     #work-button {
+        cursor: pointer;
         font-weight: 200;
         letter-spacing: 2px;
         display: inline-block;
@@ -104,8 +115,9 @@ body {
         -webkit-transition: all .2s ease-in-out;
 
         &:hover {
-            background-color: rgba(83, 122, 113, .5);
-            border-bottom: 4px solid rgb(255, 255, 255);
+            font-weight: 300;
+            color: rgb(46, 49, 51);
+            border-bottom: 4px solid rgb(213, 116, 102);
         }
 
         /* Smartphones (portrait) ----------- */
@@ -115,6 +127,7 @@ body {
     }
 
     #about-button {
+        cursor: pointer;
         font-weight: 200;
         letter-spacing: 2px;
         display: inline-block;
@@ -130,8 +143,9 @@ body {
         -webkit-transition: all .2s ease-in-out;
 
         &:hover {
-            background-color: rgba(83, 122, 113, .5);
-            border-bottom: 4px solid rgb(255, 255, 255);
+            font-weight: 300;
+            color: rgb(46, 49, 51);
+            border-bottom: 4px solid rgb(213, 116, 102);
         }
 
         /* Smartphones (portrait) ----------- */
@@ -141,6 +155,7 @@ body {
     }
 
     #contact-button {
+        cursor: pointer;
         font-weight: 200;
         letter-spacing: 2px;
         display: inline-block;
@@ -156,8 +171,9 @@ body {
         -webkit-transition: all .2s ease-in-out;
 
         &:hover {
-            background-color: rgba(83, 122, 113, .5);
-            border-bottom: 4px solid rgb(255, 255, 255);
+            font-weight: 300;
+            color: rgb(46, 49, 51);
+            border-bottom: 4px solid rgb(213, 116, 102);
         }
 
         /* Smartphones (portrait) ----------- */
@@ -271,7 +287,8 @@ body {
     margin-top: 129px;
     background-color: rgb(155, 198, 189);
 
-    .nav-arrow {
+    #nav-arrow {
+        cursor: pointer;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -280,12 +297,12 @@ body {
         padding-top: 40px;
     }
 
-    .work-header {
+    #work-header {
         padding-top: 30px;
         margin-top: 0px;
 
         .work-intro {
-            margin-top: 45px;
+            margin-top: 100px;
             text-align: center;
             letter-spacing: 6px;
             color: white;
@@ -308,6 +325,14 @@ body {
 }
 
 // Main Section End
+
+
+
+
+
+
+
+
 
 
 
@@ -433,6 +458,16 @@ body {
         display: none;
     } 
 }      
+
+
+
+
+
+
+
+
+
+
 
 // Get-A-Gig 
 
@@ -687,3 +722,324 @@ body {
 }
 
 // Work Section End
+
+
+
+// About Section Start
+
+#about {
+    background-color: rgb(155, 198, 189);
+    width: 100%;
+    height: auto; 
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        height: auto;
+    }
+}
+
+.about-me-copy {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 10%;
+    padding-bottom: 12%;
+    text-align: center;
+    line-height: 38px;
+    letter-spacing: 1px;
+    padding-left: 12%;
+    padding-right: 12%;
+    font-weight: 300;
+    font-size: 25px;
+    color: snow;
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        margin-bottom: 0px;
+        padding-bottom: 45px;
+        padding-top: 50px;
+        line-height: 23px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-weight: 200;
+        font-size: 15px;
+    }
+
+    /* iPads (portrait and landscape) ----------- */
+    @media only screen and (max-width : 768px) {
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 18px;
+        line-height: 25px;
+    }
+}
+
+
+// About Section End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Footer Section Start
+
+
+#footer {
+    background-color: rgb(46, 49, 51);
+    width: 100%;
+    height: auto;
+}
+
+.connect {
+    
+
+    .say-hello {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 200;
+        padding-top: 55px;
+        font-size: 24px;
+        color: rgb(138, 193, 186);
+        margin-top: 0px;
+        text-align: center;
+
+        /* Smartphones (portrait) ----------- */
+        @media only screen and (max-width : 320px) {
+            font-size: 16px;
+        } 
+    }
+}
+
+.underline {
+    margin: 20px auto;
+    background-color: rgb(138, 193, 186);
+    width: 20px;
+    height: 2px;
+}
+
+.social-links {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 95px;
+    margin-bottom: 115px;
+    width: 100%;
+    height: 85px;
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }  
+}
+
+.github-icon {
+    display: inline-block;
+    margin: 0 auto;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    background-size: 100%;
+    transition-duration: .7s;
+    opacity: .25;
+    -webkit-filter: grayscale(1);
+    cursor: pointer;
+
+    &:hover {
+        -webkit-filter: grayscale(0);
+        background-size: 100%;
+        opacity: 1;
+    }
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+    }  
+}
+
+.linkedin-icon {
+    display: inline-block;
+    margin: 0 auto;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    -webkit-filter: grayscale(1);
+    background: no-repeat;
+    background-size: 100%;
+    opacity: .8;
+    transition-duration: .7s;
+    cursor: pointer;
+
+    &:hover {
+        -webkit-filter: grayscale(0);
+        background-size: 100%;
+        opacity: 1;
+    }
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+    }  
+}
+
+.wordpress-icon {
+    display: inline-block;
+    margin: 0 auto;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    -webkit-filter: grayscale(1);
+    background-size: 100%;
+    transition-duration: .7s;
+    cursor: pointer;
+
+    &:hover {
+        -webkit-filter: grayscale(0);
+        background-size: 100%;
+        opacity: 1;
+    }
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+    }  
+}
+
+
+.twitter-icon {
+    display: inline-block;
+    margin: 0 auto;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    -webkit-filter: grayscale(1);
+    background-size: 100%;
+    opacity: .5;
+    transition-duration: .7s;
+    cursor: pointer;
+
+    &:hover {
+        -webkit-filter: grayscale(0);
+        background-size: 100%;
+        opacity: 1;
+    }
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+    }  
+}
+
+.mail-icon {
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 85px;
+    height: 85px;
+    -webkit-filter: grayscale(1);
+    background-size: 100%;
+    opacity: .7;
+    transition-duration: .7s;
+    cursor: pointer;
+
+    &:hover {
+        -webkit-filter: grayscale(0);
+        background-size: 100%;
+        opacity: 1;
+    }
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+    }  
+}
+
+.dribbble-icon {
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    -webkit-filter: grayscale(1);
+    background-size: 100%;
+    opacity: .7;
+    transition-duration: .7s;
+    cursor: pointer;
+
+    &:hover {
+        -webkit-filter: grayscale(0);
+        background-size: 100%;
+        opacity: 1;
+    }
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        width: 35px;
+        height: 35px;
+    }  
+}
+
+.bottom-line {
+    margin-top: 75px;
+    width: 100%;
+    height: 1px;
+    background-color: silver;
+    opacity: .2;
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+        margin-top: 0px;
+    }  
+}
+
+.copyright-div {
+    margin-top: 20px;
+    padding-bottom: 25px;
+    height: 85px;
+    width: 100%;
+    text-align: center;
+
+    .copyright-info {
+        padding-top: 25px;
+        display: inline-block;
+        text-align: center;
+        font-size: 11px;
+        font-weight: 100;
+        color: silver;
+
+        /* Smartphones (portrait) ----------- */
+        @media only screen and (max-width : 320px) {
+            padding-left: 0px;
+            padding-top: 0px;
+            display: block;
+        }  
+
+    }
+}
+
+// Footer End
+
