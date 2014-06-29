@@ -30,9 +30,36 @@ $("#nav-arrow").click(function() {
     }, 1250);
 });
 
-// $(function () {
-// $("#work-button").click(function (e) {
-// e.preventDefault();
-// $("#work-button").addClass("active").not(this).removeClass("active");
-// });
-// });
+// galleries 
+
+$( ".birthday-button" ).click(function() {
+  $( ".birthday-gallery-container" ).slideToggle( "slow" );
+});
+
+$( ".anniversary-button" ).click(function() {
+  $( ".anniversary-gallery-container" ).slideToggle( "slow" );
+});
+
+// x-button
+
+$( "#exit-birthday-container" ).click(function() {
+  $( ".birthday-gallery-container" ).slideToggle( "slow" );
+});
+
+$( "#exit-anniversary-container" ).click(function() {
+  $( ".anniversary-gallery-container" ).slideToggle( "slow" );
+});
+
+// button-scroll-to
+
+$(".birthday-button").click(function() {
+    $('body').animate({
+        scrollTop: $(".birthday-gallery-container").offset().top -200
+    }, 750);
+});
+
+$(".anniversary-button").click(function() {
+    $('body').animate({
+        scrollTop: $(".anniversary-gallery-container").offset().top -200
+    }, 750);
+});
