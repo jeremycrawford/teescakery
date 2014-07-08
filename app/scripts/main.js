@@ -64,6 +64,12 @@ $("#exit-birthday-container").click(function() {
     }, 750);
 });
 
+$("#exit-anniversary-container").click(function() {
+    $('body').animate({
+        scrollTop: $("#work-header").offset().top +125
+    }, 750);
+});
+
 $(".anniversary-button").click(function() {
     $('body').animate({
         scrollTop: $(".anniversary-gallery-container").offset().top -200
