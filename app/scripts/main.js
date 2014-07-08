@@ -72,6 +72,6 @@ $("#exit-anniversary-container").click(function() {
 
 $(".anniversary-button").click(function() {
     $('body').animate({
-        scrollTop: $(".anniversary-gallery-container").offset().top -200
+        scrollTop: $(".anniversary-gallery-container").offset().top -75
     }, 750);
 });

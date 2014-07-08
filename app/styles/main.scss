@@ -889,7 +889,7 @@ body {
             }
         }
 
-        .photo-container-one {
+        .anniversary-photo-container-one {
             vertical-align: top;
             position: relative;
             margin: 20px;
@@ -901,9 +901,15 @@ body {
             height: 250px;
             text-decoration: none;
             color: rgb(46, 49, 51);
+
+            .anniversary-cake-one {
+                width: 210px;
+                height: auto;
+                margin-top: 21px;
+            }
         }
 
-        .photo-container-two {
+        .anniversary-photo-container-two {
             vertical-align: top;
             position: relative;
             margin: 18px;
@@ -914,9 +920,15 @@ body {
             height: 250px;
             text-decoration: none;
             color: rgb(46, 49, 51);
+
+            .anniversary-cake-two {
+                width: 210px;
+                height: auto;
+                margin-top: 21px;
+            }
         }
 
-        .photo-container-three {
+        .anniversary-photo-container-three {
             vertical-align: top;
             position: relative;
             margin: 18px;
@@ -927,9 +939,15 @@ body {
             height: 250px;
             text-decoration: none;
             color: rgb(46, 49, 51);
+
+            .anniversary-cake-three {
+                width: 210px;
+                height: auto;
+                margin-top: 21px;
+            }
         }
 
-        .photo-container-four {
+        .anniversary-photo-container-four {
             vertical-align: top;
             position: relative;
             margin: 20px;
@@ -940,6 +958,12 @@ body {
             height: 250px;
             text-decoration: none;
             color: rgb(46, 49, 51);
+
+            .anniversary-cake-four {
+                width: 210px;
+                height: auto;
+                margin-top: 21px;
+            }
         }
     }
 
