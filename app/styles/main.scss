@@ -571,13 +571,6 @@ body {
             }
         }
 
-        .modal-content {
-            background-color: white;
-            width: 700px;
-            height: 700px;
-            padding-top: 50px;
-        }
-
         .birthday-photo-container-two {
             vertical-align: top;
             position: relative;
@@ -589,6 +582,12 @@ body {
             height: 250px;
             text-decoration: none;
             color: rgb(46, 49, 51);
+
+            .birthday-cake-two {
+                width: 210px;
+                height: auto;
+                margin-top: 21px;
+            }
         }
 
         .birthday-photo-container-three {
@@ -602,6 +601,12 @@ body {
             height: 250px;
             text-decoration: none;
             color: rgb(46, 49, 51);
+
+            .birthday-cake-three {
+                width: 210px;
+                height: auto;
+                margin-top: 21px;
+            }
         }
 
         .birthday-photo-container-four {
@@ -615,6 +620,87 @@ body {
             height: 250px;
             text-decoration: none;
             color: rgb(46, 49, 51);
+
+            .birthday-cake-four {
+                width: 210px;
+                height: auto;
+                margin-top: 21px;
+            }
+        }
+
+        .birthday-photo-container-five {
+            cursor: pointer;
+            vertical-align: top;
+            position: relative;
+            margin: 20px;
+            display: inline-block;
+            background-color: white;
+            width: 250px;
+            height: 250px;
+            text-decoration: none;
+            color: rgb(46, 49, 51);
+
+            .birthday-cake-five {
+                width: 210px;
+                height: auto;
+                margin-top: 21px;
+            }
+        }
+
+        .birthday-photo-container-six {
+            vertical-align: top;
+            position: relative;
+            margin: 18px;
+            margin-top: 20px;
+            display: inline-block;
+            background-color: white;
+            width: 250px;
+            height: 250px;
+            text-decoration: none;
+            color: rgb(46, 49, 51);
+
+            .birthday-cake-six {
+                width: 210px;
+                height: auto;
+                margin-top: 21px;
+            }
+        }
+
+        .birthday-photo-container-seven {
+            vertical-align: top;
+            position: relative;
+            margin: 18px;
+            margin-top: 20px;
+            display: inline-block;
+            background-color: white;
+            width: 250px;
+            height: 250px;
+            text-decoration: none;
+            color: rgb(46, 49, 51);
+
+            .birthday-cake-seven {
+                width: 210px;
+                height: auto;
+                margin-top: 21px;
+            }
+        }
+
+        .birthday-photo-container-eight {
+            vertical-align: top;
+            position: relative;
+            margin: 20px;
+            display: inline-block;
+            background-color: white;
+            width: 250px;
+            height: 250px;
+            text-decoration: none;
+            color: rgb(46, 49, 51);
+
+            .birthday-cake-eight {
+                width: 210px;
+                height: auto;
+                margin-top: 21px;
+            }
         }
     }
 

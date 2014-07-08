@@ -54,7 +54,13 @@ $( "#exit-anniversary-container" ).click(function() {
 
 $(".birthday-button").click(function() {
     $('body').animate({
-        scrollTop: $(".birthday-gallery-container").offset().top -200
+        scrollTop: $(".birthday-gallery-container").offset().top -75
+    }, 750);
+});
+
+$("#exit-birthday-container").click(function() {
+    $('body').animate({
+        scrollTop: $("#work-header").offset().top +125
     }, 750);
 });
 
