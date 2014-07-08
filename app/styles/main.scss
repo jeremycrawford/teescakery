@@ -449,6 +449,29 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Birthdays 
 
 .birthday-container {
@@ -498,6 +521,8 @@ body {
         }
     } 
 }
+
+// Birthday Gallery
 
 .birthday-gallery-container {
     height: auto;
@@ -787,6 +812,26 @@ body {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Anniversaries
 
 .anniversary-container {
@@ -837,6 +882,8 @@ body {
         }
     } 
 }
+
+// Anniversary Gallery
 
 .anniversary-gallery-container {
     height: auto;
@@ -947,24 +994,6 @@ body {
             }
         }
 
-        .anniversary-photo-container-four {
-            vertical-align: top;
-            position: relative;
-            margin: 20px;
-            margin-top: 80px;      
-            display: inline-block;
-            background-color: white;
-            width: 250px;
-            height: 250px;
-            text-decoration: none;
-            color: rgb(46, 49, 51);
-
-            .anniversary-cake-four {
-                width: 210px;
-                height: auto;
-                margin-top: 21px;
-            }
-        }
     }
 
     .anniversary-arrow-up {
@@ -986,9 +1015,32 @@ body {
 }
 
 
-// Todo Project
 
-.project-todo-container {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Baby Showers
+
+.baby-shower-container {
     vertical-align: top;
     position: relative;
     margin: 20px;      
@@ -1000,7 +1052,8 @@ body {
     color: rgb(46, 49, 51);
     transition-duration: .6s;
 
-    .code-button {
+    .baby-button {
+        cursor: pointer;
         display: inline-block;
         background-color: rgb(155, 198, 189);
         width: 315px;
@@ -1010,7 +1063,7 @@ body {
         margin-top: 8px;
         color: snow;
 
-        .code-copy {
+        .baby-copy {
             font-size: 14px;
             letter-spacing: 1px;
             font-weight: 200;
@@ -1035,6 +1088,148 @@ body {
         }
     } 
 }
+
+// Baby Shower Gallery
+
+.baby-gallery-container {
+    height: auto;
+    width: 100%;
+    padding-top: 20px;
+    display: none;
+    padding-bottom: 20px;
+
+    .baby-gallery {
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        width: 100%;
+        background-color: rgb(155, 198, 189);
+        text-align: center;
+        padding-bottom: 60px;
+
+        #exit-baby-container {
+            display: inline-block;
+            cursor: pointer;
+            width: 30px;
+            height: 36px;
+            float: right;
+            margin: 15px;
+            z-index: 100;
+
+            .x-line-one {
+                height: 38px;
+                width: 2px;
+                margin-left: 13px;
+                background-color: white;
+                transform: rotate(45deg);
+                -ms-transform: rotate(45deg); /* IE 9 */
+                -webkit-transform: rotate(45deg); /* Safari and Chrome */
+                z-index: 1;
+            }
+
+            .x-line-two {
+                height: 38px;
+                width: 2px;
+                background-color: white;
+                transform: rotate(90deg);
+                -ms-transform: rotate(90deg); /* IE 9 */
+                -webkit-transform: rotate(90deg); /* Safari and Chrome */
+                z-index: 2;
+            }
+
+            &:hover {
+                opacity: .5;
+            }
+        }
+
+        .baby-photo-container-one {
+            vertical-align: top;
+            position: relative;
+            margin: 20px;
+            margin-top: 80px; 
+            margin-left: 78px;     
+            display: inline-block;
+            background-color: white;
+            width: 250px;
+            height: 250px;
+            text-decoration: none;
+            color: rgb(46, 49, 51);
+
+            .baby-cake-one {
+                width: 210px;
+                height: auto;
+                margin-top: 21px;
+            }
+        }
+
+        .baby-photo-container-two {
+            vertical-align: top;
+            position: relative;
+            margin: 18px;
+            margin-top: 80px;      
+            display: inline-block;
+            background-color: white;
+            width: 250px;
+            height: 250px;
+            text-decoration: none;
+            color: rgb(46, 49, 51);
+
+            .baby-cake-two {
+                width: 210px;
+                height: auto;
+                margin-top: 21px;
+            }
+        }
+
+        .baby-photo-container-three {
+            vertical-align: top;
+            position: relative;
+            margin: 18px;
+            margin-top: 80px;      
+            display: inline-block;
+            background-color: white;
+            width: 250px;
+            height: 250px;
+            text-decoration: none;
+            color: rgb(46, 49, 51);
+
+            .baby-cake-three {
+                width: 210px;
+                height: auto;
+                margin-top: 21px;
+            }
+        }
+
+    }
+
+    .baby-arrow-up {
+        width: 0; 
+        height: 0;
+        margin-left: 75.27%;
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-bottom: 25px solid rgb(155, 198, 189);
+    }
+}
+
+.cake-title {
+    text-transform: uppercase;
+    color: gray;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 // Mobber Project
 

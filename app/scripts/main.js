@@ -40,6 +40,10 @@ $( ".anniversary-button" ).click(function() {
   $( ".anniversary-gallery-container" ).slideToggle( "slow" );
 });
 
+$( ".baby-button" ).click(function() {
+  $( ".baby-gallery-container" ).slideToggle( "slow" );
+});
+
 // x-button
 
 $( "#exit-birthday-container" ).click(function() {
@@ -50,11 +54,27 @@ $( "#exit-anniversary-container" ).click(function() {
   $( ".anniversary-gallery-container" ).slideToggle( "slow" );
 });
 
+$( "#exit-baby-container" ).click(function() {
+  $( ".baby-gallery-container" ).slideToggle( "slow" );
+});
+
 // button-scroll-to
 
 $(".birthday-button").click(function() {
     $('body').animate({
         scrollTop: $(".birthday-gallery-container").offset().top -75
+    }, 750);
+});
+
+$(".anniversary-button").click(function() {
+    $('body').animate({
+        scrollTop: $(".anniversary-gallery-container").offset().top -75
+    }, 750);
+});
+
+$(".baby-button").click(function() {
+    $('body').animate({
+        scrollTop: $(".baby-gallery-container").offset().top -75
     }, 750);
 });
 
@@ -70,8 +90,8 @@ $("#exit-anniversary-container").click(function() {
     }, 750);
 });
 
-$(".anniversary-button").click(function() {
+$("#exit-baby-container").click(function() {
     $('body').animate({
-        scrollTop: $(".anniversary-gallery-container").offset().top -75
+        scrollTop: $("#work-header").offset().top +125
     }, 750);
 });
